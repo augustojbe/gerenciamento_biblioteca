@@ -1,4 +1,4 @@
-package com.example.library.dto;
+package com.example.library.controller.dto;
 
 import com.example.library.model.Autor;
 import jakarta.validation.constraints.NotBlank;
@@ -22,11 +22,5 @@ public record AutorDTO(
         @Size(max = 50, min = 2, message = "Campo fora do padrão")
         String nacionalidade) {
 
-    public Autor maperarParaAutor(){
-        Autor autor = new Autor();
-        autor.setNome(this.nome);
-        autor.setDataNascimento(this.dataNascimento);
-        autor.setNacionalidade(this.nacionalidade);
-        return autor;
-    }
+
 }

@@ -1,4 +1,4 @@
-package com.example.library.dto;
+package com.example.library.controller.dto;
 
 import org.springframework.http.HttpStatus;
 

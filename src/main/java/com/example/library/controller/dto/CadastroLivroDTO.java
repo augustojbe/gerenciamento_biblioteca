@@ -1,4 +1,4 @@
-package com.example.library.dto;
+package com.example.library.controller.dto;
 
 import com.example.library.model.GeneroLivro;
 import jakarta.validation.constraints.NotBlank;
